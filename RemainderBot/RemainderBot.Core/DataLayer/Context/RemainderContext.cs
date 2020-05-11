@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using CoreLibrary.Execution;
+using System.Data.Common;
 
 namespace RemainderBot.Core.DataLayer.Context
 {
@@ -11,9 +12,11 @@ namespace RemainderBot.Core.DataLayer.Context
     {
 
         private readonly string _connectionString;
+        private readonly DbConnection dbConnection;
         public RemainderContext(AppGlobal global)
         {
             _connectionString = global.ConnectionString;
+            dbConnection = global.DbConnection;
         }
 
         public RemainderContext() {
@@ -21,7 +24,7 @@ namespace RemainderBot.Core.DataLayer.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(_connectionString);
+            optionsBuilder.UseSqlServer(dbConnection);
             //optionsBuilder.UseSqlServer("Server = localhost; Database = REMAI; Trusted_Connection = True;");
         }
 
