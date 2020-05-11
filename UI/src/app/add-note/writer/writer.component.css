@@ -1,0 +1,15 @@
+.writer {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 50vh;
+    width: 50%;
+}
+
+.toolBar{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 1px 0px 1px;
+    width: 50%;
+    height: 5vh;
+}
