@@ -2,3 +2,7 @@
 RemainderBot/CoreLibrary/bin/Release/netcoreapp2.1/CoreLibrary.pdb
 bin/
 Release/
+v15/
+.vs/config/
+Debug/
+obj/

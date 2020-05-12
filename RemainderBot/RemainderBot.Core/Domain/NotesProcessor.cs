@@ -1,7 +1,8 @@
 ﻿using CoreLibrary.Execution;
-using RemainderBot.Core.DataLayer.Context;
+using RemainderBot.Core.DtoModels.NOSQL;
 using RemainderBot.Core.Repository;
-
+//using RemainderBot.Core.DataLayer.Context;
+//using RemainderBot.Core.Repository;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,9 +11,9 @@ namespace RemainderBot.Core.Domain
 {
     public class NotesProcessor
     {
-        private readonly INotesRepository notesRepo;
+        private readonly INotesRepositoryNoSQL notesRepo;
         private readonly AppGlobal appGlobal;
-        public NotesProcessor(INotesRepository notesRepository, AppGlobal _appGlobal)
+        public NotesProcessor(INotesRepositoryNoSQL notesRepository, AppGlobal _appGlobal)
         {
             notesRepo = notesRepository;
             appGlobal = _appGlobal;

@@ -4,8 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RemainderBot.Core.DataLayer.Context;
+
 using RemainderBot.Core.Domain;
+using RemainderBot.Core.DtoModels.NOSQL;
 
 namespace RemainderBot.Controllers
 {
@@ -48,7 +49,7 @@ namespace RemainderBot.Controllers
            
         }
 
-        [HttpGet]
+        [HttpGet("Search")]
         public ActionResult<IEnumerable<Notes>> SearchNote([FromQuery] string searchKey)
         {
             try

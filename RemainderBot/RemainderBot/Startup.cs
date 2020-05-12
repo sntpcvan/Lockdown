@@ -22,9 +22,6 @@ namespace RemainderBot
         {
             Configuration = configuration;
             _provider = provider;
-
-
-
         }
 
         public IConfiguration Configuration { get; }
@@ -46,6 +43,7 @@ namespace RemainderBot
                 });
 
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,6 +60,12 @@ namespace RemainderBot
 
             app.UseHttpsRedirection();
             app.UseCors("CorsPolicy");
+    //        app.UseCors(builder => builder
+    //.AllowAnyOrigin()
+    //.AllowAnyMethod()
+    //.AllowAnyHeader()
+    //.AllowCredentials());
+   
             app.UseMvc();
         }
     }

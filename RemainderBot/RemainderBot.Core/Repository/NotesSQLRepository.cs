@@ -8,11 +8,11 @@ using RemainderBot.Core.DataLayer.Context;
 
 namespace RemainderBot.Core.Repository
 {
-    public class NotesRepository : INotesRepository
+    public class NotesSQLRepository : INotesRepository
     {
         private readonly RemainderContext context;
         private readonly AppGlobal global;
-        public NotesRepository(RemainderContext _context, AppGlobal appGlobal)
+        public NotesSQLRepository(RemainderContext _context, AppGlobal appGlobal)
         {
             context = _context;
             global = appGlobal;
