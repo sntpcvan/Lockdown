@@ -19,6 +19,7 @@ export class AddNoteContainerComponent implements OnInit {
   }
 
   textContent(text: TextContent[]) {
+    if(text.length == 1 && text[0].data == "") return;
     const data: Notes = this.business.mapToStore(text)
     this.notesStore.saveNote(data);
   }

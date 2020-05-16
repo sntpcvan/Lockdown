@@ -26,6 +26,7 @@ export class WriterComponent implements OnInit {
   private getTextFromWriter(): void {
     const element = document.getElementById('textWriterZone');
     const parsed = this.parseNextLine(element.innerText);
+    element.innerHTML = "";
     this.textContent.emit(parsed);
   }
 
