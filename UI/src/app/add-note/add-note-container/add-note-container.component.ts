@@ -15,6 +15,7 @@ export class AddNoteContainerComponent implements OnInit {
   constructor(private notesStore: NotesStore, private business: NotesBusiness) { }
   collectTextSubject: Subject<void> = new Subject<void>();
 
+
   ngOnInit() {
   }
 

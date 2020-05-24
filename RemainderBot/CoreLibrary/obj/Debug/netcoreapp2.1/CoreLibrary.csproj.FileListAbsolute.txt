@@ -1,0 +1,9 @@
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\bin\Debug\netcoreapp2.1\CoreLibrary.deps.json
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\bin\Debug\netcoreapp2.1\CoreLibrary.dll
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\obj\Debug\netcoreapp2.1\CoreLibrary.csprojAssemblyReference.cache
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\obj\Debug\netcoreapp2.1\CoreLibrary.csproj.CoreCompileInputs.cache
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\obj\Debug\netcoreapp2.1\CoreLibrary.AssemblyInfoInputs.cache
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\obj\Debug\netcoreapp2.1\CoreLibrary.AssemblyInfo.cs
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\bin\Debug\netcoreapp2.1\CoreLibrary.pdb
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\obj\Debug\netcoreapp2.1\CoreLibrary.dll
+D:\gitub\Lockdown\RemainderBot\CoreLibrary\obj\Debug\netcoreapp2.1\CoreLibrary.pdb

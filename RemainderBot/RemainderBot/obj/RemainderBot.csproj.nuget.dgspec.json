@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot\\RemainderBot.csproj": {}
+    "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot\\RemainderBot.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Remainder\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj": {
+    "D:\\gitub\\Lockdown\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Remainder\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj",
+        "projectUniqueName": "D:\\gitub\\Lockdown\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj",
         "projectName": "CoreLibrary",
-        "projectPath": "D:\\GitHub\\Remainder\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj",
-        "packagesPath": "C:\\Users\\sivans\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Remainder\\RemainderBot\\CoreLibrary\\obj\\",
+        "projectPath": "D:\\gitub\\Lockdown\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj",
+        "packagesPath": "C:\\Users\\SandeepSivan\\.nuget\\packages\\",
+        "outputPath": "D:\\gitub\\Lockdown\\RemainderBot\\CoreLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SandeepSivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Fastreport\\DLLs": {},
-          "D:\\Nup": {},
-          "D:\\Nup\\Test": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,30 +51,37 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj": {
+    "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj",
+        "projectUniqueName": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj",
         "projectName": "RemainderBot.Core",
-        "projectPath": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj",
-        "packagesPath": "C:\\Users\\sivans\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot.Core\\obj\\",
+        "projectPath": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj",
+        "packagesPath": "C:\\Users\\SandeepSivan\\.nuget\\packages\\",
+        "outputPath": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SandeepSivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,16 +89,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Fastreport\\DLLs": {},
-          "D:\\Nup": {},
-          "D:\\Nup\\Test": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\GitHub\\Remainder\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj": {
-                "projectPath": "D:\\GitHub\\Remainder\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj"
+              "D:\\gitub\\Lockdown\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj": {
+                "projectPath": "D:\\gitub\\Lockdown\\RemainderBot\\CoreLibrary\\CoreLibrary.csproj"
               }
             }
           }
@@ -127,27 +125,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot\\RemainderBot.csproj": {
+    "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot\\RemainderBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot\\RemainderBot.csproj",
+        "projectUniqueName": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot\\RemainderBot.csproj",
         "projectName": "RemainderBot",
-        "projectPath": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot\\RemainderBot.csproj",
-        "packagesPath": "C:\\Users\\sivans\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot\\obj\\",
+        "projectPath": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot\\RemainderBot.csproj",
+        "packagesPath": "C:\\Users\\SandeepSivan\\.nuget\\packages\\",
+        "outputPath": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SandeepSivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,16 +156,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Fastreport\\DLLs": {},
-          "D:\\Nup": {},
-          "D:\\Nup\\Test": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj": {
-                "projectPath": "D:\\GitHub\\Remainder\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj"
+              "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj": {
+                "projectPath": "D:\\gitub\\Lockdown\\RemainderBot\\RemainderBot.Core\\RemainderBot.Core.csproj"
               }
             }
           }
@@ -190,6 +188,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -200,10 +199,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

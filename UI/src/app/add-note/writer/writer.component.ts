@@ -15,12 +15,19 @@ export class WriterComponent implements OnInit {
   @Input() collectData: Observable<void>;
   @Output() textContent = new EventEmitter<TextContent[]>();
 
+
   ngOnInit() {
     this.writerForm = new FormGroup({
       textZone: new FormControl('')
     });
     this.writerForm.controls['textZone'].setValue('24323');
     this.collectData.subscribe(c => { this.getTextFromWriter() });
+  }
+
+   removeFormat():void{
+    const element = document.getElementById('textWriterZone');
+    const innetText = element.innerText;
+    element.innerHTML = innetText;
   }
 
   private getTextFromWriter(): void {

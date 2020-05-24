@@ -1,0 +1,14 @@
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.csprojAssemblyReference.cache
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.csproj.CoreCompileInputs.cache
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.AssemblyInfoInputs.cache
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.AssemblyInfo.cs
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\RemainderBot.Core.deps.json
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\RemainderBot.Core.runtimeconfig.json
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\RemainderBot.Core.runtimeconfig.dev.json
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\RemainderBot.Core.dll
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\RemainderBot.Core.pdb
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\CoreLibrary.dll
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\bin\Debug\netcoreapp2.1\CoreLibrary.pdb
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.csproj.CopyComplete
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.dll
+D:\gitub\Lockdown\RemainderBot\RemainderBot.Core\obj\Debug\netcoreapp2.1\RemainderBot.Core.pdb

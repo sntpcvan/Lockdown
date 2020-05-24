@@ -4,6 +4,6 @@ export enum URI{
 }
 
 export enum ServiceHost{
-    host = "https://localhost:44300/api/"
+    host = "http://localhost:8080/api/"
   
 }
