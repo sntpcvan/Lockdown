@@ -13,7 +13,7 @@ export class WriterComponent implements OnInit {
   constructor() { }
   writerForm: FormGroup;
   @Input() collectData: Observable<void>;
-  @Output() textContent = new EventEmitter<TextContent[]>();
+  @Output() textContent = new EventEmitter<WriterEmit>();
 
 
   ngOnInit() {
@@ -33,8 +33,9 @@ export class WriterComponent implements OnInit {
   private getTextFromWriter(): void {
     const element = document.getElementById('textWriterZone');
     const parsed = this.parseNextLine(element.innerText);
+    const rawHtml = element.innerHTML;
     element.innerHTML = "";
-    this.textContent.emit(parsed);
+    this.textContent.emit({text:parsed, rawhtml:rawHtml});
   }
 
   private parseNextLine(raw: string): TextContent[] {
@@ -56,4 +57,9 @@ export enum TextAttribute {
 export class TextContent {
   attribute: string;
   data: string;
+}
+
+export class WriterEmit{
+  text: TextContent[];
+  rawhtml:string;
 }

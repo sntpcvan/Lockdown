@@ -6,14 +6,16 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CoreModule } from 'src/core/core.module';
 import { NotesStore } from '../store/notes.store';
 import { NotesBusiness } from './add-note-container/add-note-business';
+import { SearchComponent, SafeHtmlPipe } from './search-note/search-note.component';
+import { ToastComponent } from '../general-components/toast-component';
 
 
 
 @NgModule({
-  declarations: [AddNoteContainerComponent, WriterComponent],
+  declarations: [AddNoteContainerComponent, WriterComponent, SearchComponent,SafeHtmlPipe, ToastComponent ],
   imports: [
     CommonModule, ReactiveFormsModule, CoreModule
   ],
-  providers: [NotesStore, NotesBusiness]
+  providers: [NotesStore, NotesBusiness,]
 })
 export class AddNoteModule { }

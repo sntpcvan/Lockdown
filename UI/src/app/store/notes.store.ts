@@ -6,6 +6,7 @@ import { URI } from '../contants/http.uri.constant';
 
 @Injectable()
 export class NotesStore {
+
     /**
      *
      */
@@ -17,8 +18,12 @@ export class NotesStore {
         return this.http.get<Notes>("");
     }
 
-    public saveNote(note: Notes): Observable<boolean> {
-        this.http.post<boolean>(URI.SaveNote, note).subscribe(s => console.log(s))
-        return;
+    public saveNote(note: Notes): Observable<string> {
+        return  this.http.post<string>(URI.SaveNote, note);
+        
+    }
+
+    searchNote(key: string): Observable<Notes[]> {
+        return this.http.get<Notes[]>(URI.SearchNotes + `?content=${key}`);
     }
 }

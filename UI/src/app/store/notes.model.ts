@@ -2,9 +2,11 @@ import { TextContent } from '../add-note/writer/writer.component';
 
 export interface Notes {
     id?: number;
+    _id?: string;
     mainContent: TextContent[];
-  //  userId: string;
+    //  userId: string;
     tags?: NotesTag[];
+    rawhtml:string
 }
 
 export interface NotesTag {
@@ -20,4 +22,10 @@ export interface Tags {
 
 export interface Remainder {
 
+}
+
+export enum ViewType{
+    Textual,
+    Orginal,
+    Tags
 }

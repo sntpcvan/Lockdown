@@ -13,6 +13,7 @@ export class HttpCommunication {
 
     }
     public get<T>(url: string): Observable<T> {
+        url = ServiceHost.host + url;
         return this.http.get<T>(url);
     }
 

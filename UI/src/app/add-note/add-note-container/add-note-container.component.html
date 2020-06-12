@@ -1,3 +1,4 @@
 
 <app-writer (textContent)="textContent($event)"  [collectData]='collectTextSubject.asObservable()'></app-writer>
 <button class="save-button" (click)='clickSave()'>SAVE</button>
+<app-toast [message]="toastMessage | async"></app-toast>

@@ -1,0 +1,39 @@
+<form [formGroup]="searchFormGrp">
+    <div>
+        <input type="text" formControlName="searchTextInput" id="lname" name="lname"><br><br>
+    </div>
+
+    <!-- <div *ngFor="let note of notes">
+        <div *ngFor="let content of note.mainContent">
+            {{content.data}}
+        </div>
+        <div id="viewr" innerHTML="{{note.rawhtml|safeHtml}}"></div>
+        <a>Show Raw Note</a>
+    </div> -->
+    <div *ngFor="let note of notes;let first = first;">
+        <div class="content-viwer-block">
+            <div class="btn-group" *ngIf='first'>
+                <button type="button" class="btn btn-outline-primary"
+                    (click)='onViewModeClick(currentViewType.Textual)'>Textual</button>
+                <button type="button" class="btn btn-outline-primary"
+                    (click)='onViewModeClick(currentViewType.Orginal)'>Orginal</button>
+                <button type="button" class="btn btn-outline-primary"
+                    (click)='onViewModeClick(currentViewType.Textual)'>Tags</button>
+            </div>
+            <div></div>
+            <div id='contentViewer' class="border border-primary viewer-zone" *ngIf='buttonGroupDirty' [ngSwitch]='selectedView'>          
+                <ng-container *ngSwitchCase='currentViewType.Textual'>
+                    <div *ngFor="let content of note.mainContent">
+                        {{content.data}}
+                    </div>
+                </ng-container>
+                <ng-container *ngSwitchCase='currentViewType.Orginal'>
+                    <div id="viewr" innerHTML="{{note.rawhtml|safeHtml}}"></div>
+                </ng-container>
+                <ng-container *ngSwitchCase='currentViewType.Textual'>
+                    Showing Tags
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</form>
